@@ -8,6 +8,7 @@
 body{
     font-family: 'Asap', sans-serif;
     background-color:#FACF5A;
+    font-size: larger;
 }
 
 nav{
@@ -83,4 +84,112 @@ nav img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#disablity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#disablity img{
+    height: 800px;
+
+
+}
+#disablity{
+    text-align: center;
+}
+
+.help img{
+    height: 500px;
+
+}
+  
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px
+}
+
+@media only screen and (max-width:600px){
+    nav{
+        height: fit-content;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #home{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+    #home img{
+        height: 400px;
+        width: 400px;
+    }
+    #home h3{
+        height: fit-content;
+        width: 300px;
+        text-align: center;
+        font-size: larger;
+    }
+    #web img{
+        height: 100px;
+        width: 100px;
+        justify-content: space-evenly;
+    }
+    #helpme{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    #disable{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+
+    #color{
+        height: 600px;
+        width: 300px;
+    }
+    #colour{
+        height: 700px;
+        width: 400px;
+}
+#disabled{
+    display: flex;
+        flex-direction: column;
+        justify-content:space-between
+}
+ #height img{
+     height: 700px;
+     width:500px ;
+ }
+ #height h2{
+      text-align: center;
+ }
+ #help1 img{
+     height:200px ;
+ }
+ #help3 img{
+     height: 300px;
+ }
+ 
+  
 }
