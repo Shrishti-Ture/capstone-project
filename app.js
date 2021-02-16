@@ -1,9 +1,7 @@
-var home = document.getElementById("home");
-var disablity = document.getElementById("disablity");
-var help = document.getElementById("help");
-var contact = document.getElementById("contact");
-
-
+const home = document.getElementById("nav-home");
+const disablity = document.getElementById("nav-disablity");
+const help = document.getElementById("nav-help");
+const contact = document.getElementById("nav-contact");
 
 home.onclick=()=>{
     location.href = "./index.html"
